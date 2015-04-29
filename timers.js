@@ -1,5 +1,5 @@
 var interval;
-var timeElapsed = 1;
+var timeElapsed = 0;
 
 
 function startTimer () {
@@ -36,7 +36,7 @@ function resetTimer () {
     console.log("reset");
     document.getElementById("timer").innerText = "Stop Watch";
     clearInterval(interval);
-    timeElapsed = 1
+    timeElapsed = 0
 
   })
 
